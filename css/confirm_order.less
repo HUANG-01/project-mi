@@ -1,0 +1,223 @@
+// 头部
+header{
+    background-color: #f26b11;
+    border: 0;
+    .header{
+
+        a{
+            img:first-of-type{
+            width: 2.2667vw;}
+        }
+        p{
+            font-size: 4.5333vw;
+            color:#fff;
+        }
+    }
+}
+// 收货人和地址信息
+.info{
+    height: 21.4667vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .msg{
+        width: 85vw;
+        padding-left: 3.8667vw;
+        height: 20vw;    
+        font-size: 3.0667vw;
+        color: #696969;
+        line-height: 1;
+        .consignee{      
+            display: flex;
+            justify-content: space-between;
+            margin: 3.3333vw 0;
+        }
+        .address{
+            display: flex;
+            justify-content: flex-start;
+            line-height: 4vw;
+            span:first-of-type{
+                width: 15.2vw;
+            }
+        }
+    }
+    img{
+        height: 3.2vw;
+        margin-right: 3.8667vw;
+    }
+}
+// 商品信息
+.shop_info{
+    padding: 1.4667vw 0;
+    background-color: #f1f1f1;
+    .msg{
+        padding:  0 3.3333vw;
+        background-color: #fff;
+        color: #656565;
+        font-size: 3.0667vw;
+        //商品信息
+        .shop{   
+            padding-top: 3.2vw;        
+            display: flex;
+            justify-content: space-between;
+            &>div{
+                display: flex;
+                justify-content: flex-start;
+                img{
+                    margin:0 3.7333vw  0 1.3333vw ;
+                    width: 14.4vw;
+                }
+                p{
+                    line-height: 6.4vw;
+                    font-size: 3.0667vw;
+                    color: #b5b5b5;
+                }
+                p:first-of-type{
+                    color: #676767;
+                }
+            }
+            &>p{
+                align-self: center;
+                font-size: 3.7333vw;
+                color: #e73437;
+                mark{
+                    color: #e73437;
+                    font-size: 2.4vw;
+                }
+            }
+        }
+        //购买数量
+        .shop_num{
+            height: 18.4vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #f0f0f0;
+            span{
+                display: inline-block;
+               width: 10vw;
+               line-height: 8.6667vw; 
+               text-align: center;
+               border-radius: 0.5333vw;
+               color: #434343;
+               border: 1px solid #525252;
+            }
+            & span:nth-of-type(2){
+                width: 15.8667vw;
+                
+            }
+        }
+        //配送方式
+        .delivery{
+            height: 12.8vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+//优惠方案
+.discounts{  
+    color: #656565;
+    font-size: 3.0667vw;
+    .plan1{
+        height: 13.8667vw;
+        display: flex;
+        padding:  0 3.3333vw;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    .plan2{
+        padding:  0 3.3333vw;
+        height: 13.6vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .usable{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            input{
+                height: 10vw;
+                border-radius: 4px;
+                font-size: 3.0667vw;
+            }
+            input[type=tel]{
+                width: 20.6667vw;
+                border: 1px solid #d7d7d7;
+                text-align: center;
+            }
+            & input::-webkit-input-placeholder{
+                color: #e9e9e9;
+            }
+            input[type=button]{
+                width: 9.3333vw;
+                background-color:#f26b11 ;
+                color: #fff;
+                margin: 0 2.6667vw 0 1.2vw;
+            }
+            p{
+                color: #929292;
+                mark{
+                    color: #dd3032;
+                }
+            }
+
+        }
+    }
+}
+// 实际金额
+.shop_money{
+    background-color: #f2f2f2;
+    padding-top: 1.4667vw;
+    .money{
+        color: #656565;
+        font-size: 3.0667vw;
+        background-color: #fff;
+        padding:  3.4667vw 3.3333vw 0 3.3333vw;
+        .shop_price{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 5.8667vw;
+            p:last-of-type{
+                color: #dd3032;
+            }
+        }
+        .shop_price:nth-of-type(5){
+            height: calc(2.6667vw + 5.8667vw);
+            padding-bottom: 2.6667vw;
+            border-bottom: 1px solid #efefef;
+        }
+        .sum_money{
+            height: 17.6vw;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            font-size: 4.6667vw;
+            margin-right: 1.0667vw;
+            p:last-of-type{
+                color:#dd3032;
+            }
+        }
+        .btn{
+            margin: 0 auto;
+            width: 47.3333vw;
+            height: 14.9333vw;
+            margin-bottom: 2.6667vw;
+            button{
+                font-size: 4.2667vw;
+                width: 100%;
+                height: 100%;
+                background-color: #f26b11;
+                color: #fff;           
+            }
+        }   
+    }
+}
+//盒子去掉底部
+.footerbar{
+    height: 16vw;
+}

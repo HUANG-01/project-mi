@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情</title>
+    <!-- 重置样式表 -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- 公共样式表 -->
+    <link rel="stylesheet" href="../css/public.css">
+    <!-- 引入本页面样式 -->
+    <link rel="stylesheet" href="../css/details.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="header">
+            <a href="#" onclick="javascript:history.go(-1);">
+                <img src="../images/arrleft_03.jpg" alt="">
+            </a>
+            <p>商品详情</p>
+            <img src="../images/ellipesis.jpg" alt="">
+        </div>
+    </header>
+    <!-- 轮播 -->
+    <div class="banner">
+        <img src="../images/detail/1.jpg" alt="">
+        <div class="msg">
+            <p>娅芝贵妇素颜霜贵妇膏神仙膏补水保湿懒人霜遮瑕珍珠膏</p>
+            <p>￥123.00<span>(此价格不与套装优惠同时享受)</span></p>
+        </div>
+    </div>
+    <!-- 商品折扣，购买数量及规格 -->
+    <article>
+        <ul>
+            <li>
+                <div>
+                    促销&nbsp;:
+                    <span>满减</span>
+                    <p>满2减9折&nbsp;;&nbsp;</p>
+                    <p>3件8折</p>
+                </div>
+                <img src="../images/arrow.jpg" alt="">
+            </li>
+            <li>
+                <p>购买数量</p>
+                <div class="num">
+                    <span>-</span>
+                    <span>1</span>
+                    <span>+</span>
+                </div>
+            </li>
+            <li>
+                <p>商品属性</p>
+                <img src="../images/arrow.jpg" alt="">
+            </li>
+            <li>
+                <p>规格</p>
+                <p>30g</p>
+                <p>50g</p>
+            </li>
+        </ul>
+    </article>
+    <!-- 商品评价 -->
+    <div class="detail">
+        <h3>
+            商品详情
+        </h3>
+        <img src="../images/detail/2.jpg" alt="">
+    </div>
+    <!-- 商品评价 -->
+    <div class="appraise">
+        <h3>
+            商品评价
+        </h3>
+        <p>1235668fg</p>
+        <p>效果很好，物流到位，下次继续来!</p>
+        <div>
+            <img src="../images/detail/picDetail_8.jpg" alt="">
+            <img src="../images/detail/picDetail_9.jpg" alt="">
+            <img src="../images/detail/picDetail_10.jpg" alt="">
+        </div>
+        <p>2020-01-13</p>
+        <div class="more">
+            <p>共1000+条评论</p>
+            <p>查看更多&nbsp;></p>
+        </div>
+    </div>
+    <!-- 加入购物车或购买 -->
+    <div class="shopcar_buy">
+        <figure>
+            <i></i>
+            <figcaption>购物车</figcaption>
+            <span>2</span>
+        </figure>
+        <input type="button" value="加入购物车">
+        <input type="reset" value="立即购买" onclick="window.location=('./confirm_order.html')">
+    </div>
+</body>
+
+</html>

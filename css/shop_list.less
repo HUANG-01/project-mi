@@ -1,0 +1,78 @@
+// 头部
+header{
+    border: 0;
+    .header{
+
+        a{
+            img:first-of-type{
+            width: 2.2667vw;}
+        }
+        p{
+            font-size: 4.5333vw;
+        }
+    }
+}
+// 搜索框
+.sear{
+    width: 83.2vw;
+    margin: 2.9333vw auto 3.2vw;
+    input{
+        font-family: 'icomoon';
+        background-color: #f26b11;
+        width: 83.2vw;
+        height:10.2667vw ;
+        border-radius: 5.1333vw;
+        padding-left: 4.1333vw;
+        color: #fff;
+        font-size: 3.4667vw;
+        // &::-webkit-input-placeholder{
+        //     text-align: center;
+        //     color: #fff;
+        // }
+        // &:-moz-placeholder{
+        //     text-align: center;
+        //     color: #ffffff;
+        // }
+        &::placeholder{
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+}
+// 商品列表
+ul{
+    padding: 0 4vw;
+    li{
+        height: 27.2vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #d1d1d1;
+        line-height: 4.8vw;
+        font-size: 3.0667vw;
+        img{
+            padding: 0 1.3333vw;
+            width: 20.6667vw;
+        }
+        .txt{
+            width: 70.5333vw;
+            padding-left: 5.6vw;
+            color: #333333;
+            &>div{
+                height: 15.2vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .price{
+                    margin-top: 1vw;
+                    color: #e3393a;
+                }
+            }
+            .appraise{
+                margin-top: 1.0667vw;
+                line-height: 1;
+                color: #9a9a9a;
+            }
+        }
+    }
+}

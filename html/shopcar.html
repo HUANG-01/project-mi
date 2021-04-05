@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <!-- 重置样式表 -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- 公共样式表 -->
+    <link rel="stylesheet" href="../css/public.css">
+    <!-- 引入本页面样式 -->
+    <link rel="stylesheet" href="../css/shopcar.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="header">
+            <a href="#" onclick="javascript:history.go(-1);">
+                <img src="../images/arrleft_03.jpg" alt="">
+            </a>
+            <p>购物车</p>
+            <img src="../images/ellipesis.jpg" alt="">
+        </div>
+    </header>
+    <!-- 商品 -->
+    <div class="shop">
+        <div class="select">
+            <input type="checkbox" name="checked" id="">
+        </div>
+        <div class="shoppic">
+            <img src="../images/shop_4.jpg" alt="">
+        </div>
+        <div class="shoptxt">
+            <p class="txt">欧莱雅面霜</p>
+            <p class="size">规格: 50g</p>
+            <p class="price">￥123.00</p>
+        </div>
+        <div class="shopnum">
+            <span>1</span>
+        </div>
+    </div>
+    <div class="shop">
+        <!-- <div class="select">
+            <a href="#"></a>
+        </div> -->
+        <div class="shoppic">
+            <img src="../images/shop_8.jpg" alt="">
+        </div>
+        <div class="shoptxt">
+            <p class="txt">雅诗兰黛护手霜</p>
+            <p class="size">规格: 50g</p>
+            <p class="price">￥26.00</p>
+        </div>
+        <div class="shopnum">
+            <span>1</span>
+        </div>
+        <div class="delect">
+            删除
+        </div>
+    </div>
+    <div class="shop">
+        <div class="select">
+            <input type="checkbox" name="checked" id="">
+        </div>
+        <div class="shoppic">
+            <img src="../images/shopCart.jpg ">
+        </div>
+        <div class=" shoptxt">
+            <p class="txt">雅诗兰黛素颜霜</p>
+            <p class="size">规格: 50g</p>
+            <p class="price">￥226.00</p>
+        </div>
+        <div class="shopnum">
+            <span>1</span>
+        </div>
+    </div>
+    <!-- 结算 -->
+    <div class="count">
+        <div class="check">
+            <input type="checkbox" name="checked" id=""><span>全选</span>
+        </div>
+        <div class="sumprice">
+            <p>总计 : <span>163.00</span></p>
+            <p>不含运费，已优惠￥0.00</p>
+        </div>
+        <button class="stat">
+            <!--οnclick="window.open('confirm_order.html')"-->
+            <a href="./confirm_order.html">去结算(2件)</a>
+        </button>
+    </div>
+    <!-- 底部 -->
+    <footer>
+        <a href="../index.html">
+            <img src="../images/tabBar/shouye.png" alt="">
+            <p>首页</p>
+        </a>
+        <a href="shopcar.html">
+            <img src="../images/tabBar/Agouwuchekong.png" alt="">
+            <p class="active">购物车</p>
+        </a>
+        <a href="me.html">
+            <img src="../images/tabBar/wode.png" alt="">
+            <p>我的</p>
+        </a>
+    </footer>
+</body>
+
+</html>

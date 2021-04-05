@@ -1,0 +1,104 @@
+﻿/* 声明icomoon字体 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?3luad2');
+    src:  url('../fonts/icomoon.eot?3luad2#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?3luad2') format('truetype'),
+      url('../fonts/icomoon.woff?3luad2') format('woff'),
+      url('../fonts/icomoon.svg?3luad2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* em i 不倾斜 */
+em,
+i {
+    font-style: normal;
+}
+/* 默认有黄色背景 */
+mark{
+    background-color: #fff;
+}
+
+ul,li ,ol{
+    list-style: none
+}
+/* border 0为了照顾低版本的浏览器 */
+/* 图片和取消文字底部的空白缝隙 */
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+/* 鼠标经过变成小手 */
+button {
+    cursor: pointer
+}
+
+a {
+    color: #333;
+    text-decoration: none
+}
+a:hover{
+    color: #f46810;
+}
+table{
+    border-collapse: collapse;
+}
+/* table,th,td{
+    border: 1px solid #000;
+} */
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
+}
+
+body {
+    /* 抗锯齿形 让文字变得更加清晰 */
+    -webkit-font-smoothing: antialiased;
+
+    background-color: #fff;
+    /* 文字大小12px,1.5倍行距(也就是12*1.5=18) */
+    color: #666
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* ios 按钮默认由圆角  */
+button{
+    border-radius: 0;
+}
+*{
+    /*   禁止用户选中文字 */
+    -webkit-user-select: none;
+    /*  长按弹出主菜单   */
+    -webkit-touch-callout: none;
+}
+input,button{
+    /*  选中取消出现的高亮边框   */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}

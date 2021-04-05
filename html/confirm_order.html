@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>确认订单</title>
+    <!-- 重置样式表 -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- 公共样式表 -->
+    <link rel="stylesheet" href="../css/public.css">
+    <!-- 引入本页面样式 -->
+    <link rel="stylesheet" href="../css/confirm_order.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="header">
+            <a href="#" onclick="javascript:history.go(-1);">
+                <img src="../images/arrleft_03.jpg" alt="">
+            </a>
+            <p>确认订单</p>
+            <img src="../images/ellipesis.jpg" alt="">
+        </div>
+    </header>
+    <!-- 收货人和地址信息 -->
+    <div class="info">
+        <div class="msg">
+            <div class="consignee">
+                <p>收货人:YouSu</p>
+                <p class="tel">100000000</p>
+            </div>
+            <div class="address">
+                <span>收货地址 :</span>
+                <span>北京市海淀区隐泉路清林苑6号楼中公优就业总部3层</span>
+            </div>
+        </div>
+        <img src="../images/arrowRight.jpg" alt="">
+    </div>
+    <!-- 商品信息 -->
+    <div class="shop_info">
+        <div class="msg">
+            <!-- 商品信息 -->
+            <div class="shop">
+                <div>
+                    <img src="../images/shop_4.jpg" alt="">
+                    <div class="txt">
+                        <p>雅诗兰黛护肤霜</p>
+                        <p>规格 : 50g</p>
+                    </div>
+                </div>
+                <p><mark>￥</mark>120.00</p>
+            </div>
+            <!-- 购买数量 -->
+            <div class="shop_num">
+                <p>购买数量 :</p>
+                <div class="num">
+                    <span>-</span>
+                    <span>1</span>
+                    <span>+</span>
+                </div>
+            </div>
+            <!-- 配送方式 -->
+            <div class="delivery">
+                <p>配送方式</p>
+                <p>XXX快递</p>
+            </div>
+        </div>
+    </div>
+    <!-- 优惠方案 -->
+    <div class="discounts">
+        <!-- 优惠券方式 -->
+        <div class="plan1">
+            <p>优惠券</p>
+            <p>无可用</p>
+        </div>
+        <!-- 积分方式 -->
+        <div class="plan2">
+            <p>使用积分</p>
+            <div class="usable">
+                <!-- 因为input:number有上下箭头,所以我们可以用tel代替 -->
+                <input type="tel" name="" id="" placeholder="使用积分">
+                <input type="button" value="使用">
+                <p>可用<mark>50</mark>积分</p>
+            </div>
+        </div>
+    </div>
+    <!-- 实际金额 -->
+    <div class="shop_money">
+        <!-- 优惠了哪些 -->
+        <div class="money">
+            <div class="shop_price">
+                <p>商品金额</p>
+                <p>￥68.00</p>
+            </div>
+            <div class="shop_price">
+                <p>运费</p>
+                <p>+ ￥0.00</p>
+            </div>
+            <div class="shop_price">
+                <p>优惠券</p>
+                <p>- ￥0.00</p>
+            </div>
+            <div class="shop_price">
+                <p>会员优惠</p>
+                <p>- ￥0.00</p>
+            </div>
+            <div class="shop_price">
+                <p>积分抵扣</p>
+                <p>- ￥0.00</p>
+            </div>
+            <!-- 实际金额 -->
+            <div class="sum_money">
+                <p>实际金额 : </p>
+                <p>￥68.00</p>
+            </div>
+            <div class="btn">
+                <button>提交订单</button>
+            </div>
+        </div>
+    </div>
+    <!-- 盒子去掉底部 -->
+    <div class="footerbar"></div>
+    <!-- 底部 -->
+    <footer>
+        <a href="../index.html">
+            <img src="../images/tabBar/shouye.png" alt="">
+            <p>首页</p>
+        </a>
+        <a href="shopcar.html">
+            <img src="../images/tabBar/Agouwuchekong.png" alt="">
+            <p class="active">购物车</p>
+        </a>
+        <a href="me.html">
+            <img src="../images/tabBar/wode.png" alt="">
+            <p>我的</p>
+        </a>
+    </footer>
+</body>
+
+</html>

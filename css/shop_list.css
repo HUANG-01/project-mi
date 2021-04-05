@@ -1,0 +1,63 @@
+header {
+  border: 0;
+}
+header .header a img:first-of-type {
+  width: 2.2667vw;
+}
+header .header p {
+  font-size: 4.5333vw;
+}
+.sear {
+  width: 83.2vw;
+  margin: 2.9333vw auto 3.2vw;
+}
+.sear input {
+  font-family: 'icomoon';
+  background-color: #f26b11;
+  width: 83.2vw;
+  height: 10.2667vw;
+  border-radius: 5.1333vw;
+  padding-left: 4.1333vw;
+  color: #fff;
+  font-size: 3.4667vw;
+}
+.sear input::placeholder {
+  text-align: center;
+  color: #ffffff;
+}
+ul {
+  padding: 0 4vw;
+}
+ul li {
+  height: 27.2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d1d1d1;
+  line-height: 4.8vw;
+  font-size: 3.0667vw;
+}
+ul li img {
+  padding: 0 1.3333vw;
+  width: 20.6667vw;
+}
+ul li .txt {
+  width: 70.5333vw;
+  padding-left: 5.6vw;
+  color: #333333;
+}
+ul li .txt > div {
+  height: 15.2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ul li .txt > div .price {
+  margin-top: 1vw;
+  color: #e3393a;
+}
+ul li .txt .appraise {
+  margin-top: 1.0667vw;
+  line-height: 1;
+  color: #9a9a9a;
+}

@@ -1,0 +1,127 @@
+// 头部
+header{
+    background-color: #f26b11;
+    border: 0;
+    .header{
+
+        a{
+            img:first-of-type{
+            width: 2.2667vw;}
+        }
+        p{
+            font-size: 4.5333vw;
+            color:#fff;
+        }
+    }
+}
+// 我的信息
+.me_msg{
+    height: 27.6vw;
+    background-color: #f26b11;
+    padding:  0 4.2667vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .msg{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 3.7333vw;
+        p{
+            color: #fff;
+            align-self: center;
+            margin-left: 3.2vw;
+        }
+        i{
+            position: relative;
+            top: 2vw;
+            color: #121318;
+            font-style: italic;
+        }
+        &::before{
+            content: '';
+            display: inline-block;
+            width: 20vw;
+            height: 20vw;
+            border: 4px solid #fff;
+            border-radius: 11vw;
+            background: url(../images/mine/mine.png) no-repeat;
+            background-size: 20vw 20vw;
+        }
+    }
+    button{
+        width: 21.3333vw;
+        height: 9.6vw;
+        font-size: 3.3333vw;
+        background-color: #fff;
+        margin-right: 1vw;
+        border-radius: 0.5333vw;
+        color: #f26b11;
+    }
+}
+//订单详情
+.order_detail{
+    height: 14.6667vw;
+    padding: 0 4.2667vw;
+    display: flex;
+    justify-content:space-between;
+    figure{
+        margin:0 2.6667vw;
+        align-self: center;
+        text-align: center;
+        img{
+            width: 4.5333vw;
+        }
+        figcaption{
+            line-height: 1;
+            margin-top: 2.4vw;
+            font-size: 3.2vw;
+            color: #676767;
+        }
+    }
+
+}
+article{
+    padding-top: 2.6667vw;
+    background-color: #f1f1f1;
+    .other_detail{
+        background-color: #fff;
+        section{
+            padding:  0 4.2667vw;
+            line-height: 15.0667vw;
+            display: flex;
+            justify-content: space-between;
+            color: #696969;
+            border-bottom: 1px solid #d9d9d9;
+            font-size: 3.2vw;
+            &>div img{
+                vertical-align: middle;
+                height: 5.0667vw;
+            }
+            .yuer{
+                img{
+                    height: 3.2vw;           
+                }
+                &>span{
+                    color: #ff6319;
+                    text-align: right;
+                    margin-right: 2.9333vw;
+                }
+            }
+            span{
+                vertical-align: middle;
+                margin-left: 3.2vw;
+            }
+            &>img{
+                align-self: center;
+                 height: 3.2vw;
+            }
+          
+
+        }
+        section:nth-of-type(3) div{
+            position: relative;
+            left: -2vw;
+        }
+    }
+  
+}
